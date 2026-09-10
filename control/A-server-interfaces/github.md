@@ -24,7 +24,8 @@ GitHub 用户：[`Faisal-1921`](https://github.com/Faisal-1921)（用户 ID `550
 ### 跨机器公共仓（public）
 
 - Mac / Windows / Linux 均可**不登录** clone。
-- 用途：分发 `control/` 控制平面，以及旧版 Linux Python 3.11 安装脚本（`CODEX_SERVER_SETUP.sh`、`D_01_requirements.txt`）。
+- 用途：分发 `control/` 控制平面、跨机器 `shared/` 材料，以及旧版 Linux Python 3.11 安装脚本（`CODEX_SERVER_SETUP.sh`、`D_01_requirements.txt`）。
+- 2026-09-10：`shared/briefings/周禹轩-汇报3.pptx`。其他 Agent：`git pull --ff-only` 后取该文件。见 [`../../shared/README.md`](../../shared/README.md)。
 - **不是**业务代码本体，也**不是** V1.1 运行入口。
 - 默认可 clone：
 

@@ -34,6 +34,14 @@
 
 细节：[A-server-interfaces/github.md](A-server-interfaces/github.md)。Windows 从公共仓拉 control：[A-server-interfaces/windows-bootstrap.md](A-server-interfaces/windows-bootstrap.md)。V1.1 权威代码仍在 Linux，不在这两个 GitHub 仓。
 
+## 跨机器共享材料（请其他 Agent 拉取）
+
+2026-09-10 已把汇报 PPT 推进本公共仓。Mac / Linux / 其他 Windows 上的 Agent 在公共仓 clone 里执行 `git pull --ff-only`，然后打开：
+
+`shared/briefings/周禹轩-汇报3.pptx`
+
+目录说明：[../shared/README.md](../shared/README.md)。不要去 Windows `E:\Mike_项目材料整理_...` 找源文件。
+
 ## 阅读顺序
 
 1. [A-server-interfaces/](A-server-interfaces/README.md) — SSH、GitHub、Windows 引导、只读监控、V0.3 图谱可视化、DeepSeek、COPT

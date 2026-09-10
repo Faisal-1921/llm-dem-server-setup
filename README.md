@@ -3,6 +3,7 @@
 本仓库是 **public** 分发点：Mac / Windows / Linux 均可不登录 clone。
 
 - **`control/`**：LEM-DEM 中心控制平面。Agent **先读** [`control/README.md`](control/README.md)。
+- **`shared/`**：跨机器材料。其他 Agent 请 `git pull --ff-only` 后取 [`shared/briefings/周禹轩-汇报3.pptx`](shared/briefings/周禹轩-汇报3.pptx)（2026-09-10 上传）。见 [`shared/README.md`](shared/README.md)。
 - `CODEX_SERVER_SETUP.sh`、`D_01_requirements.txt`：旧版 V0.1 的 Linux Python 3.11 venv 脚本，**不是**当前入口。
 
 | 角色 | 仓库 |
